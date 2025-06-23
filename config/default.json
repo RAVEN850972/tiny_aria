@@ -1,0 +1,55 @@
+{
+    "system": {
+        "name": "TinyARIA",
+        "version": "0.1.0",
+        "debug": false
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/tiny_aria.log",
+        "max_size": "10MB",
+        "backup_count": 5
+    },
+    "message_bus": {
+        "max_queue_size": 1000,
+        "processing_timeout": 30
+    },
+    "plugins": {
+        "directory": "plugins",
+        "auto_load": true,
+        "enabled": []
+    },
+    "dsl": {
+        "config_file": "config/rules.aria",
+        "compilation_timeout": 10
+    },
+    "perception": {
+        "enabled": true,
+        "max_tokens": 1000,
+        "language": "auto",
+        "context_levels": 3
+    },
+    "memory": {
+        "working_size": 7,
+        "episodic_limit": 1000,
+        "association_threshold": 0.5,
+        "forgetting_rate": 0.01
+    },
+    "reasoning": {
+        "max_steps": 10,
+        "quantum_qubits": 4,
+        "hypothesis_limit": 5,
+        "logic_timeout": 5
+    },
+    "metacognition": {
+        "confidence_threshold": 0.7,
+        "introspection_frequency": 10,
+        "self_model_update_rate": 0.1
+    },
+    "ethics": {
+        "enabled": true,
+        "harm_threshold": 0.1,
+        "utilitarian_weight": 0.6,
+        "deontological_weight": 0.4
+    }
+}
