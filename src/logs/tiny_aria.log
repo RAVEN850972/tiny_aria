@@ -1,0 +1,17 @@
+2025-06-27 00:21:02,622 - src.core.config_manager - INFO - Configuration loaded for environment: development
+2025-06-27 00:21:02,623 - src.core.lifecycle_manager - INFO - System initialization started
+2025-06-27 00:21:02,623 - src.tiny_aria - INFO - Initializing message bus
+2025-06-27 00:21:02,623 - src.core.message_bus - INFO - Handler _handle_error subscribed to MessageType.ERROR
+2025-06-27 00:21:02,623 - src.core.message_bus - INFO - Handler _handle_metric subscribed to MessageType.METRIC
+2025-06-27 00:21:02,623 - src.tiny_aria - INFO - Initializing plugins
+2025-06-27 00:21:02,623 - src.tiny_aria - INFO - Initializing cognitive layers
+2025-06-27 00:22:35,272 - pymorphy3.opencorpora_dict.wrapper - INFO - Loading dictionaries from /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pymorphy3_dicts_ru/data
+2025-06-27 00:22:35,547 - pymorphy3.opencorpora_dict.wrapper - INFO - format: 2.4, revision: 417150, updated: 2022-01-08T22:09:24.565962
+2025-06-27 00:22:43,164 - src.core.lifecycle_manager - ERROR - System initialization failed: 'NoneType' object is not callable
+2025-06-27 00:23:21,754 - src.core.config_manager - INFO - Configuration loaded for environment: development
+2025-06-27 00:23:21,754 - src.core.lifecycle_manager - INFO - System initialization started
+2025-06-27 00:23:21,754 - src.tiny_aria - INFO - Initializing message bus
+2025-06-27 00:23:21,755 - src.core.message_bus - INFO - Handler _handle_error subscribed to MessageType.ERROR
+2025-06-27 00:23:21,755 - src.core.message_bus - INFO - Handler _handle_metric subscribed to MessageType.METRIC
+2025-06-27 00:23:21,755 - src.tiny_aria - INFO - Initializing plugins
+2025-06-27 00:23:21,755 - src.tiny_aria - INFO - Initializing cognitive layers
